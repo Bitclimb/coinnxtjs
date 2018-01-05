@@ -12,7 +12,7 @@ const seed = bip39.mnemonicToSeed(mnemonic); // your 12 word bip39 seed
 const seed = bitcoin.crypto.sha256(BIP32_KEY); // your BIP32 KEY
 
 const node = nxtjs.fromSeedBuffer(seed,'BURST');
-const master = node.derivePath(`m/44'/60'/0'/0/0`);
+const master = node.derivePath(`m/44'/30'/0'/0/0`);
 
 console.log(master.getAddress())
 //prints BURST-xxxx address

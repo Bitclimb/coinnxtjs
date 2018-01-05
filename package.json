@@ -1,6 +1,6 @@
 {
   "name": "coinnxtjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple bip44 derivation of any NXT coin base addresses ",
   "main": "index.js",
   "directories": {
