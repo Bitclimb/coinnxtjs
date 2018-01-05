@@ -1,0 +1,34 @@
+{
+  "name": "coinnxtjs",
+  "version": "1.0.0",
+  "description": "Simple bip44 derivation of any NXT coin base addresses ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bitclimb/coinnxtjs.git"
+  },
+  "keywords": [
+    "nxt",
+    "bip44",
+    "address",
+    "bip39"
+  ],
+  "author": "unibtc@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bitclimb/coinnxtjs/issues"
+  },
+  "homepage": "https://github.com/Bitclimb/coinnxtjs#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^3.3.2",
+    "crypto-js": "^3.1.9-1",
+    "jsbn": "^1.1.0",
+    "pako": "^1.0.6"
+  }
+}
